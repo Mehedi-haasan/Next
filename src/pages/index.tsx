@@ -48,7 +48,8 @@ const Home: React.FC = () => {
   useEffect(() => {
     fetchData();
   }, []);
-  console.log(data);
+
+
   return (
     <main className={``}>
       <div className='bg-[#F0F2F5]'>
